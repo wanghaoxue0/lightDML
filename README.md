@@ -1,3 +1,4 @@
+'''
 Package: lightDML
 Type: Package
 Title: A light version of double machine learning with instrumental variable
@@ -10,3 +11,4 @@ for users who have little knowledge on double machine learning methods.
 License: MIT
 Encoding: UTF-8
 LazyData: true
+'''

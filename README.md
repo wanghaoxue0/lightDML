@@ -1,3 +1,10 @@
+# Light Double Machine Learning
+
+### Haoxue Wang
+
+University of Cambridge
+
+hw613@cam.ac.uk
 ```
 Package: lightDML
 Type: Package

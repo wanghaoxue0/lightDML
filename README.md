@@ -5,6 +5,14 @@
 University of Cambridge
 
 hw613@cam.ac.uk
+
+```
+library(devtools)
+install_github("wanghaoxue0/lightDML")
+library(randomForest)
+library(gbm)
+model <- fit(data, y, x, d, z=NA, ml=c("bagging","boosting","random forest", "neural network"), score=c("ATE, LATE"), random_state=2023, verbose=FALSE)
+```
 ```
 Package: lightDML
 Type: Package

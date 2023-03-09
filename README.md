@@ -11,6 +11,7 @@ library(devtools)
 install_github("wanghaoxue0/lightDML")
 library(randomForest)
 library(gbm)
+library(lightDML)
 model <- fit(data, y, x, d, z=NA, ml=c("bagging","boosting","random forest", "neural network"), score=c("ATE, LATE"), random_state=2023, verbose=FALSE)
 ```
 ```
